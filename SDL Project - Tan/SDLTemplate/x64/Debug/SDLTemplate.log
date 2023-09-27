@@ -1,2 +1,8 @@
 ﻿  Player.cpp
-  SDLTemplate.vcxproj -> C:\Users\reban\BASPRG3 Repository\sdl-template-master\SDLTemplate\x64\Debug\SDL-Template.exe
+C:\Users\reban\BASPRG3 Resources\SDL Project - Tan\SDLTemplate\Player.cpp(75,48): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\reban\BASPRG3 Resources\SDL Project - Tan\SDLTemplate\Player.cpp(75,33): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\reban\BASPRG3 Resources\SDL Project - Tan\SDLTemplate\Player.cpp(90,49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\reban\BASPRG3 Resources\SDL Project - Tan\SDLTemplate\Player.cpp(90,34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\reban\BASPRG3 Resources\SDL Project - Tan\SDLTemplate\Player.cpp(94,50): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\reban\BASPRG3 Resources\SDL Project - Tan\SDLTemplate\Player.cpp(94,34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  SDLTemplate.vcxproj -> C:\Users\reban\BASPRG3 Resources\SDL Project - Tan\x64\Debug\SDL-Template.exe
