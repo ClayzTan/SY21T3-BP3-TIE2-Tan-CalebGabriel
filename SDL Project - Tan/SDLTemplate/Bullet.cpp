@@ -35,7 +35,7 @@ void Bullet::update()
 
 void Bullet::draw()
 {
-	blit(texture, x, y);
+	blitRotate(texture, x, y, 270);
 }
 
 int Bullet::getPositionX()

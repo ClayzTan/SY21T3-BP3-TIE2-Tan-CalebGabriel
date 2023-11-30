@@ -21,6 +21,7 @@ void Background::update()
 
 void Background::draw()
 {
+	blit(texture, x, y);
 	blitScale(texture, 0, 0, &width, &height, 3);
 }
 

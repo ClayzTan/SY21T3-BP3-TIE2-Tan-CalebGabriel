@@ -17,8 +17,8 @@ void Player::start()
 	texture = loadTexture("gfx/player.png");
 
 	// Initialize to prevent junk
-	x = 100;
-	y = 100;
+	x = 600;
+	y = 600;
 	width = 0;
 	height = 0;
 	speed = 2;
@@ -88,7 +88,7 @@ void Player::update()
 	if (app.keyboard[SDL_SCANCODE_F] && currentReloadTime == 0)
 	{
 		SoundManager::playSound(sound);
-		Bullet* bullet = new Bullet(x + width, y - 4 + height / 2, 1, 0, 10, Side::PLAYER_SIDE);
+		Bullet* bullet = new Bullet(x + 35 - width / 2, y + 35 - height, 0, -1, 10, Side::PLAYER_SIDE);
 		bullets.push_back(bullet);
 		getScene()->addGameObject(bullet);
 		bullet->start();
@@ -103,10 +103,10 @@ void Player::update()
 	if (app.keyboard[SDL_SCANCODE_G] && currentReloadTime2 == 0)
 	{
 		SoundManager::playSound(sound);
-		Bullet* bullet1 = new Bullet(x + width, y - 6 + height, 1, 0, 10, Side::PLAYER_SIDE);
+		Bullet* bullet1 = new Bullet(x + 10 - width / 2, y + 35 - height, 0, -1, 10, Side::PLAYER_SIDE);
 		bullets.push_back(bullet1);
 		getScene()->addGameObject(bullet1);
-		Bullet* bullet2 = new Bullet(x + width, y - 26 + height / 2, 1, 0, 10, Side::PLAYER_SIDE);
+		Bullet* bullet2 = new Bullet(x + 55 - width / 2, y + 35 - height, 0, -1, 10, Side::PLAYER_SIDE);
 		bullets.push_back(bullet2);
 		getScene()->addGameObject(bullet2);
 
@@ -118,7 +118,8 @@ void Player::update()
 void Player::draw()
 {
 	if (!isAlive) return;
-	blit(texture, x, y);
+	//blit(texture, x, y);
+	blitRotate(texture, x, y, 270);
 }
 
 int Player::getPositionX()

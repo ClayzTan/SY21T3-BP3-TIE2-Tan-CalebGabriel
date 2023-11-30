@@ -42,7 +42,7 @@ void Enemy::update()
 
 	if (currentDirectionChangeTime == 0)
 	{
-		directionY = -directionY;
+		directionX = -directionX;
 		currentDirectionChangeTime = directionChangeTime;
 	}
 
@@ -82,7 +82,7 @@ void Enemy::update()
 
 void Enemy::draw()
 {
-	blit(texture, x, y);
+	blitRotate(texture, x, y, 270);
 }
 
 void Enemy::setPlayerTarget(Player* player)

@@ -1,0 +1,53 @@
+﻿  Background.cpp
+  Bullet.cpp
+C:\Users\reban\BASPRG3 Resources\Extra\SDL Project -  Module 5 - Tan\SDLTemplate\Bullet.cpp(5,12): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\reban\BASPRG3 Resources\Extra\SDL Project -  Module 5 - Tan\SDLTemplate\Bullet.cpp(6,12): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\reban\BASPRG3 Resources\Extra\SDL Project -  Module 5 - Tan\SDLTemplate\Bullet.cpp(9,16): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\reban\BASPRG3 Resources\Extra\SDL Project -  Module 5 - Tan\SDLTemplate\Bullet.cpp(32,18): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+C:\Users\reban\BASPRG3 Resources\Extra\SDL Project -  Module 5 - Tan\SDLTemplate\Bullet.cpp(33,18): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+  Enemy.cpp
+C:\Users\reban\BASPRG3 Resources\Extra\SDL Project -  Module 5 - Tan\SDLTemplate\Enemy.cpp(25,39): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\reban\BASPRG3 Resources\Extra\SDL Project -  Module 5 - Tan\SDLTemplate\Enemy.cpp(37,18): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+C:\Users\reban\BASPRG3 Resources\Extra\SDL Project -  Module 5 - Tan\SDLTemplate\Enemy.cpp(38,18): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+C:\Users\reban\BASPRG3 Resources\Extra\SDL Project -  Module 5 - Tan\SDLTemplate\Enemy.cpp(60,48): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\reban\BASPRG3 Resources\Extra\SDL Project -  Module 5 - Tan\SDLTemplate\Enemy.cpp(60,33): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\reban\BASPRG3 Resources\Extra\SDL Project -  Module 5 - Tan\SDLTemplate\Enemy.cpp(69,20): warning C4018: '<': signed/unsigned mismatch
+  Explosion.cpp
+  GameObject.cpp
+  GameScene.cpp
+C:\Users\reban\BASPRG3 Resources\Extra\SDL Project -  Module 5 - Tan\SDLTemplate\GameScene.cpp(98,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\reban\BASPRG3 Resources\Extra\SDL Project -  Module 5 - Tan\SDLTemplate\GameScene.cpp(123,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\reban\BASPRG3 Resources\Extra\SDL Project -  Module 5 - Tan\SDLTemplate\GameScene.cpp(146,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\reban\BASPRG3 Resources\Extra\SDL Project -  Module 5 - Tan\SDLTemplate\GameScene.cpp(154,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\reban\BASPRG3 Resources\Extra\SDL Project -  Module 5 - Tan\SDLTemplate\GameScene.cpp(188,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\reban\BASPRG3 Resources\Extra\SDL Project -  Module 5 - Tan\SDLTemplate\GameScene.cpp(218,20): warning C4018: '<': signed/unsigned mismatch
+  Player.cpp
+C:\Users\reban\BASPRG3 Resources\Extra\SDL Project -  Module 5 - Tan\SDLTemplate\Player.cpp(7,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\reban\BASPRG3 Resources\Extra\SDL Project -  Module 5 - Tan\SDLTemplate\Player.cpp(40,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\reban\BASPRG3 Resources\Extra\SDL Project -  Module 5 - Tan\SDLTemplate\Player.cpp(91,58): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\reban\BASPRG3 Resources\Extra\SDL Project -  Module 5 - Tan\SDLTemplate\Player.cpp(91,38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\reban\BASPRG3 Resources\Extra\SDL Project -  Module 5 - Tan\SDLTemplate\Player.cpp(106,59): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\reban\BASPRG3 Resources\Extra\SDL Project -  Module 5 - Tan\SDLTemplate\Player.cpp(106,39): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\reban\BASPRG3 Resources\Extra\SDL Project -  Module 5 - Tan\SDLTemplate\Player.cpp(109,59): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\reban\BASPRG3 Resources\Extra\SDL Project -  Module 5 - Tan\SDLTemplate\Player.cpp(109,39): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  PowerUp.cpp
+C:\Users\reban\BASPRG3 Resources\Extra\SDL Project -  Module 5 - Tan\SDLTemplate\PowerUp.cpp(13,39): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\reban\BASPRG3 Resources\Extra\SDL Project -  Module 5 - Tan\SDLTemplate\PowerUp.cpp(21,18): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+C:\Users\reban\BASPRG3 Resources\Extra\SDL Project -  Module 5 - Tan\SDLTemplate\PowerUp.cpp(22,18): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+  Scene.cpp
+C:\Users\reban\BASPRG3 Resources\Extra\SDL Project -  Module 5 - Tan\SDLTemplate\Scene.cpp(13,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\reban\BASPRG3 Resources\Extra\SDL Project -  Module 5 - Tan\SDLTemplate\Scene.cpp(53,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\reban\BASPRG3 Resources\Extra\SDL Project -  Module 5 - Tan\SDLTemplate\Scene.cpp(61,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\reban\BASPRG3 Resources\Extra\SDL Project -  Module 5 - Tan\SDLTemplate\Scene.cpp(69,20): warning C4018: '<': signed/unsigned mismatch
+  SoundManager.cpp
+C:\Users\reban\BASPRG3 Resources\Extra\SDL Project -  Module 5 - Tan\SDLTemplate\SoundManager.cpp(76,20): warning C4018: '<': signed/unsigned mismatch
+  draw.cpp
+  init.cpp
+  input.cpp
+  main.cpp
+C:\Users\reban\BASPRG3 Resources\Extra\SDL Project -  Module 5 - Tan\SDLTemplate\main.cpp(7,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\reban\BASPRG3 Resources\Extra\SDL Project -  Module 5 - Tan\SDLTemplate\main.cpp(53,12): warning C4244: '=': conversion from 'float' to 'long', possible loss of data
+C:\Users\reban\BASPRG3 Resources\Extra\SDL Project -  Module 5 - Tan\SDLTemplate\main.cpp(68,21): warning C4305: '+=': truncation from 'double' to 'float'
+  text.cpp
+  Generating Code...
+LINK : fatal error LNK1168: cannot open C:\Users\reban\BASPRG3 Resources\Extra\SDL Project -  Module 5 - Tan\Debug\SDL-Template.exe for writing
