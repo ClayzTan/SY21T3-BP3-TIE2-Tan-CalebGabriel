@@ -29,6 +29,7 @@ void Enemy::start()
 	SDL_QueryTexture(texture, NULL, NULL, &width, &height);
 
 	sound = SoundManager::loadSound("sound/334227__jradcoolness__laser.ogg");
+	sound->volume = 64;
 }
 
 void Enemy::update()
@@ -56,7 +57,7 @@ void Enemy::update()
 		calcSlope(playerTarget->getPositionX(), playerTarget->getPositionY(), x, y, &dx, &dy);
 
 		SoundManager::playSound(sound);
-		Bullet* bullet = new Bullet(x + width, y - 4 + height / 2, dx, dy, 10);
+		Bullet* bullet = new Bullet(x + width, y - 4 + height / 2, dx, dy, 10, Side::ENEMY_SIDE);
 		bullets.push_back(bullet);
 		getScene()->addGameObject(bullet);
 
@@ -93,4 +94,24 @@ void Enemy::setPosition(int x, int y)
 {
 	this->x = x;
 	this->y = y;
+}
+
+int Enemy::getPositionX()
+{
+	return x;
+}
+
+int Enemy::getPositionY()
+{
+	return y;
+}
+
+int Enemy::getWidth()
+{
+	return width;
+}
+
+int Enemy::getHeight()
+{
+	return height;
 }

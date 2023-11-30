@@ -18,6 +18,11 @@ public:
 	void draw();
 	void setPlayerTarget(Player* player);
 	void setPosition(int x, int y);
+
+	int getPositionX();
+	int getPositionY();
+	int getWidth();
+	int getHeight();
 private:
 	SDL_Texture* texture;
 	Mix_Chunk* sound;

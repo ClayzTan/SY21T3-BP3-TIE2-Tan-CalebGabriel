@@ -4,6 +4,9 @@
 #include "Player.h"
 #include "Enemy.h"
 #include <vector>
+#include "text.h"
+#include "Explosion.h"
+#include "Background.h"
 
 class GameScene : public Scene
 {
@@ -15,13 +18,19 @@ public:
 	void update();
 private:
 	Player* player;
+	Background* background;
+	Explosion* explosion;
 
 	// Enemy Spawn Logic
 	float spawnTime;
 	float currentSpawnTimer;
 	std::vector<Enemy*> spawnedEnemies;
 
+	void spawnLogic();
+	void collisionLogic();
 	void spawn();
-	void despawn();
+	void despawnEnemy(Enemy* enemy);
+
+	int points;
 };
 

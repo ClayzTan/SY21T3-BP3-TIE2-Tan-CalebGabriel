@@ -1,41 +1,39 @@
-﻿  Bullet.cpp
-C:\Users\reban\BASPRG3 Repository\SDL Project - Tan\SDLTemplate\Bullet.cpp(5,12): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-C:\Users\reban\BASPRG3 Repository\SDL Project - Tan\SDLTemplate\Bullet.cpp(6,12): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-C:\Users\reban\BASPRG3 Repository\SDL Project - Tan\SDLTemplate\Bullet.cpp(9,16): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-C:\Users\reban\BASPRG3 Repository\SDL Project - Tan\SDLTemplate\Bullet.cpp(23,18): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
-C:\Users\reban\BASPRG3 Repository\SDL Project - Tan\SDLTemplate\Bullet.cpp(24,18): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
-C:\Users\reban\BASPRG3 Repository\SDL Project - Tan\SDLTemplate\Bullet.cpp(34,9): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
-C:\Users\reban\BASPRG3 Repository\SDL Project - Tan\SDLTemplate\Bullet.cpp(39,9): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
-C:\Users\reban\BASPRG3 Repository\SDL Project - Tan\SDLTemplate\Bullet.cpp(44,9): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
-C:\Users\reban\BASPRG3 Repository\SDL Project - Tan\SDLTemplate\Bullet.cpp(49,9): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+﻿  Background.cpp
+  Bullet.cpp
+C:\Users\reban\BASPRG3 Resources\Extra\SDL Project -  Module 4 - Tan\SDLTemplate\Bullet.cpp(5,12): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\reban\BASPRG3 Resources\Extra\SDL Project -  Module 4 - Tan\SDLTemplate\Bullet.cpp(6,12): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\reban\BASPRG3 Resources\Extra\SDL Project -  Module 4 - Tan\SDLTemplate\Bullet.cpp(9,16): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\reban\BASPRG3 Resources\Extra\SDL Project -  Module 4 - Tan\SDLTemplate\Bullet.cpp(32,18): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+C:\Users\reban\BASPRG3 Resources\Extra\SDL Project -  Module 4 - Tan\SDLTemplate\Bullet.cpp(33,18): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
   draw.cpp
   Enemy.cpp
-C:\Users\reban\BASPRG3 Repository\SDL Project - Tan\SDLTemplate\Enemy.cpp(25,39): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\reban\BASPRG3 Repository\SDL Project - Tan\SDLTemplate\Enemy.cpp(36,18): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
-C:\Users\reban\BASPRG3 Repository\SDL Project - Tan\SDLTemplate\Enemy.cpp(37,18): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
-C:\Users\reban\BASPRG3 Repository\SDL Project - Tan\SDLTemplate\Enemy.cpp(59,48): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\reban\BASPRG3 Repository\SDL Project - Tan\SDLTemplate\Enemy.cpp(59,33): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\reban\BASPRG3 Resources\Extra\SDL Project -  Module 4 - Tan\SDLTemplate\Enemy.cpp(25,39): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\reban\BASPRG3 Resources\Extra\SDL Project -  Module 4 - Tan\SDLTemplate\Enemy.cpp(37,18): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+C:\Users\reban\BASPRG3 Resources\Extra\SDL Project -  Module 4 - Tan\SDLTemplate\Enemy.cpp(38,18): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+C:\Users\reban\BASPRG3 Resources\Extra\SDL Project -  Module 4 - Tan\SDLTemplate\Enemy.cpp(60,48): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\reban\BASPRG3 Resources\Extra\SDL Project -  Module 4 - Tan\SDLTemplate\Enemy.cpp(60,33): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Explosion.cpp
   GameObject.cpp
   GameScene.cpp
   init.cpp
   input.cpp
   main.cpp
-C:\Users\reban\BASPRG3 Repository\SDL Project - Tan\SDLTemplate\main.cpp(7,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-C:\Users\reban\BASPRG3 Repository\SDL Project - Tan\SDLTemplate\main.cpp(53,12): warning C4244: '=': conversion from 'float' to 'long', possible loss of data
-C:\Users\reban\BASPRG3 Repository\SDL Project - Tan\SDLTemplate\main.cpp(68,21): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\reban\BASPRG3 Resources\Extra\SDL Project -  Module 4 - Tan\SDLTemplate\main.cpp(7,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\reban\BASPRG3 Resources\Extra\SDL Project -  Module 4 - Tan\SDLTemplate\main.cpp(53,12): warning C4244: '=': conversion from 'float' to 'long', possible loss of data
+C:\Users\reban\BASPRG3 Resources\Extra\SDL Project -  Module 4 - Tan\SDLTemplate\main.cpp(68,21): warning C4305: '+=': truncation from 'double' to 'float'
   Player.cpp
-C:\Users\reban\BASPRG3 Repository\SDL Project - Tan\SDLTemplate\Player.cpp(75,48): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\reban\BASPRG3 Repository\SDL Project - Tan\SDLTemplate\Player.cpp(75,33): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\reban\BASPRG3 Repository\SDL Project - Tan\SDLTemplate\Player.cpp(90,49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\reban\BASPRG3 Repository\SDL Project - Tan\SDLTemplate\Player.cpp(90,34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\reban\BASPRG3 Repository\SDL Project - Tan\SDLTemplate\Player.cpp(94,50): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\reban\BASPRG3 Repository\SDL Project - Tan\SDLTemplate\Player.cpp(94,34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\reban\BASPRG3 Resources\Extra\SDL Project -  Module 4 - Tan\SDLTemplate\Player.cpp(91,48): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\reban\BASPRG3 Resources\Extra\SDL Project -  Module 4 - Tan\SDLTemplate\Player.cpp(91,33): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\reban\BASPRG3 Resources\Extra\SDL Project -  Module 4 - Tan\SDLTemplate\Player.cpp(106,49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\reban\BASPRG3 Resources\Extra\SDL Project -  Module 4 - Tan\SDLTemplate\Player.cpp(106,34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\reban\BASPRG3 Resources\Extra\SDL Project -  Module 4 - Tan\SDLTemplate\Player.cpp(109,50): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\reban\BASPRG3 Resources\Extra\SDL Project -  Module 4 - Tan\SDLTemplate\Player.cpp(109,34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   Scene.cpp
   SoundManager.cpp
   text.cpp
-C:\Users\reban\BASPRG3 Repository\SDL Project - Tan\SDLTemplate\text.cpp(43,14): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\reban\BASPRG3 Resources\Extra\SDL Project -  Module 4 - Tan\SDLTemplate\text.cpp(43,14): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
   util.cpp
-C:\Users\reban\BASPRG3 Repository\SDL Project - Tan\SDLTemplate\util.cpp(37,12): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\reban\BASPRG3 Repository\SDL Project - Tan\SDLTemplate\util.cpp(40,12): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\reban\BASPRG3 Resources\Extra\SDL Project -  Module 4 - Tan\SDLTemplate\util.cpp(37,12): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\reban\BASPRG3 Resources\Extra\SDL Project -  Module 4 - Tan\SDLTemplate\util.cpp(40,12): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
   Generating Code...
-  SDLTemplate.vcxproj -> C:\Users\reban\BASPRG3 Repository\SDL Project - Tan\x64\Debug\SDL-Template.exe
+  SDLTemplate.vcxproj -> C:\Users\reban\BASPRG3 Resources\Extra\SDL Project -  Module 4 - Tan\x64\Debug\SDL-Template.exe
