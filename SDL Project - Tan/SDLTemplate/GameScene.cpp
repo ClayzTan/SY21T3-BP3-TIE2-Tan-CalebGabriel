@@ -90,6 +90,8 @@ void GameScene::spawnLogic()
 
 		currentSpawnTimer2 = spawnTime2;
 	}
+
+
 }
 
 void GameScene::collisionLogic()
